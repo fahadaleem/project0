@@ -1,0 +1,267 @@
+*
+{
+    font-family: 'century gothic';
+}
+
+
+
+.navbar
+{
+    background-color: black !important;
+}
+
+.active
+{
+    
+    border-bottom: 2px solid white;
+}
+
+
+
+#header
+{
+    background-image: url("images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.jumb-custom
+{
+    color:white;
+    background-color: transparent !important;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.jumbotron > hr
+{
+    background-color: white !important;
+    width: 30%;
+}
+
+.intro-sec
+{
+    text-align: center;
+    background-color: white !important;
+}
+
+.intro-sec > h1
+{
+    font-weight: bolder;
+}
+
+
+.social
+{
+    text-align: center;
+}
+
+.icons
+{
+    padding: 10px;
+    font-size: 35px;
+}
+
+.google-icon
+{
+    color:#DA4837;
+}
+
+.fa-facebook-square
+{
+    color:#4064AD;
+}
+.github-icon
+{
+    color:rgb(94, 94, 94)
+}
+
+
+.resume-head
+{
+    background-color: #96CEB4;
+    padding-top: 60px;
+    color:white;
+    padding-bottom: 15%;
+
+}
+
+.h2
+{
+    font-size: 7rem;
+    font-weight: bolder;
+    padding-top:8%;
+    font-family: raleway;
+}
+
+.list-item
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+thead
+{
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+}
+
+#cv-heading
+{
+    text-align: center;
+    padding-top:7%;
+}
+
+.name
+{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.meta-data
+{
+    font-size: 18px;
+}
+
+.lable
+{
+    font-weight: bolder;
+}
+
+.cv-section
+{
+    font-size: 20px;
+}
+
+.skill-highlighted
+{
+    font-weight: bold;
+}
+
+
+
+.card
+{
+    box-sizing: border-box;
+}
+
+.card2
+{
+    padding-bottom: 20px;
+}
+
+.project-header
+{
+    background: linear-gradient(rgba(56, 56, 56, 0.8),rgba(0,0,0,0.5)) , url('images/project-page-header.jpg');
+    background-size: cover;
+    height: 650px;
+}
+
+#project-heading
+{
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding-top: 15%;
+    font-family: raleway;
+    padding-bottom: 15%;
+}
+
+.resume-btn
+{
+    background-color: white;
+    color: #96CEB4;
+    font-weight: bolder;
+    border:2px solid #96CEB4;
+}
+.resume-btn:hover
+{
+    background-color: #96CEB4;
+    color:   white;
+    border:2px solid white;
+
+}
+.home-heading
+{
+    font-family: raleway;
+    font-weight: bold;
+}
+
+.resume-hr
+{
+    background-color:black; 
+    float:left;
+}
+
+.about-jumbotron
+{
+    padding-top: 15%;
+    padding-bottom: 10%;
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/about-header.jpg');
+   background-size: cover;
+   color:white;
+   margin-bottom: 0;
+   height: 650px;
+}
+
+.btn-about
+{
+    background-color: black;
+    border:2px solid black;
+}
+
+.btn-about:hover
+{
+    background-color: gray;
+    color:white;
+    border:2px solid black;
+}
+.about-description
+{
+    font-size: 5rem;
+}
+
+
+@media only screen and (max-width:768px)
+{
+   .h2
+   {
+       padding-top:15%;
+       font-size: 5rem;
+   }
+   .resume-head
+   {
+       padding-bottom: 30%;
+   }
+
+   .name, .meta-data
+   {
+       text-align: center;
+   }
+
+   .cv-features, .connect-social
+   {
+       font-size: 28px;
+   }
+   .objective, td,  .personal-info li, .skills li, .project-description
+   {
+       font-size: 16px;
+   }
+   .home-heading
+   {
+       font-size: 3rem;
+   }
+   #project-heading
+   {
+       padding-top: 40%;
+       font-size: 3.5rem;
+   }
+   .about-description
+   {
+       padding-top: 15%;
+       font-size: 3.4rem;
+   }
+}
